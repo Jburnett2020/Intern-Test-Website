@@ -1,71 +1,18 @@
-/* Body Background with Image */
-body {
-    font-family: 'Mulish', sans-serif;
-    color: #001233;
-    margin: 0;
-    padding: 20px;
-    background-image: url('Background Image.png'); /* Replace with your image path or URL */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+/* Box Container Styles */
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh; /* Full viewport height to center vertically */
 }
 
-/* Heading Styles */
-h1, h2 {
-    font-family: 'Barlow Condensed', sans-serif;
-    color: #05609E;
-}
-
-/* Button Styles */
-.gradient-btn {
-    font-family: 'Mulish', sans-serif;
-    background: linear-gradient(90deg, #A3BA10, #5DA313);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.gradient-btn:hover {
-    background: linear-gradient(90deg, #5DA313, #A3BA10);
-}
-
-/* Additional Styles for Layout */
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-/* Background Rectangle Styles */
-.background-rectangle {
-    width: 80%;
-    height: 200px;
-    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
-    backdrop-filter: blur(10px); /* Blurs the background image behind the rectangle */
-    border-radius: 15px;
-    margin: 40px auto; /* Center the rectangle horizontally */
-    position: relative;
-    z-index: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* To ensure content overlays on top of the rectangle */
 /* Individual Box Styles */
 .box {
-    background-color: black; /* Change background to black */
+    background-color: black;
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.5rem;
-    padding: 40px;
     text-align: center;
     width: 150px;
     height: 150px;
