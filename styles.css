@@ -45,3 +45,21 @@ h1 {
 h2 {
     font-size: 2rem;
 }
+/* Background Rectangle Styles */
+.background-rectangle {
+    width: 80%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Blurs the background image behind the rectangle */
+    border-radius: 15px;
+    margin: 40px auto; /* Center the rectangle horizontally */
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* To ensure content overlays on top of the rectangle */
+.box-container, .gradient-btn {
+    position: relative;
+    z-index: 2;
+}
