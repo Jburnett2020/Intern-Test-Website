@@ -59,7 +59,21 @@ h2 {
 }
 
 /* To ensure content overlays on top of the rectangle */
-.box-container, .gradient-btn {
-    position: relative;
-    z-index: 2;
+/* Individual Box Styles */
+.box {
+    background-color: black; /* Change background to black */
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+    padding: 40px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
 }
