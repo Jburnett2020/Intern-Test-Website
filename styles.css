@@ -1,2 +1,47 @@
+/* Font Styles */
+body {
+    font-family: 'Mulish', sans-serif;
+    color: #001233;
+}
 
-/* Blank CSS file */
+h1, h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #05609E;
+}
+
+/* Body Styles */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Button Styles */
+.gradient-btn {
+    font-family: 'Mulish', sans-serif;
+    background: linear-gradient(90deg, #A3BA10, #5DA313);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.gradient-btn:hover {
+    background: linear-gradient(90deg, #5DA313, #A3BA10);
+}
+
+/* Heading Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
